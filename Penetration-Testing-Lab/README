@@ -1,8 +1,66 @@
-# Penetration Testing Lab
+# Healthcare Penetration Testing Lab
 
-## Overview
+## Project Overview
 
-This project demonstrates the creation of an isolated penetratoin testing laboratory using Oracle VirtualBox. 
+This project demonstrates the design and implementation of an isolated penetration testing laboratory using Oracle VirtualBox.
 
-The objective was to simulate a healthcare network and perform ethical hacking techniques including reconnaissance, service enumeration, vulnerability assessment, exploitation and network traffic analysis. 
+The environment simulates a healthcare organization's internal network and was built to safely perform ethical hacking activities, including reconnaissance, vulnerability assessment, exploitation, social engineering simulation, and network traffic analysis.
+
+All testing was conducted in an isolated virtual environment to ensure that no external systems were affected.
+
+
+
+## Objectives
+
+- Build a secure and isolated penetration testing lab
+- Simulate a healthcare network
+- Perform host discovery and network reconnaissance
+- Identify running services and potential vulnerabilities
+- Demonstrate ethical exploitation techniques
+- Analyse captured network traffic
+- Provide security recommendations based on findings
+
+
+
+## Technologies Used
+
+| Technology                       | Purpose 
+|------------                      |---------
+| Oracle VirtualBox                | Virtualization Platform 
+| Kali Linux                       | Attacker Machine 
+| Ubuntu Server                    | Healthcare Server 
+| Windows 7                        | Vulnerable Workstation 
+| Metasploitable 2                 | Vulnerable Linux Machine 
+| Nmap                             | Network Reconnaissance 
+| Metasploit Framework             | Exploitation 
+| Wireshark                        | Packet Analysis 
+| Social Engineering Toolkit (SET) | Phishing Simulation 
+
+---
+
+## Project Structure
+
+```
+Penetration-Testing-Lab
+│
+├── docs/
+├── screenshots/
+├── diagrams/
+└── README.md
+```
+
+## Documentation
+
+- Lab Setup and Environment Configuration *(Coming Soon)*
+- Reconnaissance and Host Discovery *(Coming Soon)*
+- Service Enumeration *(Coming Soon)*
+- Social Engineering Simulation *(Coming Soon)*
+- Exploitation Demonstration *(Coming Soon)*
+- Network Traffic Analysis *(Coming Soon)*
+- Security Assessment and Recommendations *(Coming Soon)*
+
+## Disclaimer
+
+This project was conducted in a controlled laboratory environment for educational and ethical cybersecurity purposes. All testing was performed on intentionally vulnerable virtual machines within an isolated network.
+
 
