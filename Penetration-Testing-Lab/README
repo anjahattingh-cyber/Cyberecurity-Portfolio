@@ -1,1 +1,8 @@
+# Penetration Testing Lab
+
+## Overview
+
+This project demonstrates the creation of an isolated penetratoin testing laboratory using Oracle VirtualBox. 
+
+The objective was to simulate a healthcare network and perform ethical hacking techniques including reconnaissance, service enumeration, vulnerability assessment, exploitation and network traffic analysis. 
 
