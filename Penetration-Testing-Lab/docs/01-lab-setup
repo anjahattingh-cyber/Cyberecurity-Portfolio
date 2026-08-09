@@ -1,3 +1,59 @@
 # Lab Setup and Environment Configuration 
 
-Content coming soon
+The fisrt stage of this project involved designing and configuring a secure virtual penetration laboratory using Oracle VirtualBox. 
+
+The environment was built to simulate a healthcare organization's internal network while ensuring that all penetration testing activities remained isolated from external systems. The lab provides a safe environment for conducting reconnaisance, vulnerability assessments, exploitation demonstrations and network traffic analysis. 
+
+## Objectives 
+
+The laboratory was designed to: 
+
+- Create a secure and isolated penetration testing environment
+- Simulate a healthcare network infrastructure
+- Deploy multiple virtual machines with different operating systems
+- Enable safe communication between virtual machines
+- Prevent access to production or public networks
+- Support repeatable cybersecurity testing
+
+## Lab Environment
+
+| Component | Description |
+|----------|-------------|
+| Virtualization Platform | Oracle VirtualBox |
+| Attacker Machine | Kali Linux |
+| Target Server | Ubuntu Server 16.04.4 LTS |
+| Vulnerable Linux Host | Metasploitable 2 |
+| Vulnerable Windows Host | Windows 7 |
+| Network Type | Host-Only Network |
+
+## Virtual Machine Configuration
+
+| Virtual Machine | Role | IP Address |
+|----------------|------|------------|
+| Kali Linux | Attacker Machine | 192.168.20.10 |
+| Metasploitable 2 | Vulnerable Linux Machine | 192.168.20.20 |
+| Windows 7 | Vulnerable Workstation | 192.168.20.30 |
+| Ubuntu Server | EHR Training Server | 192.168.20.50 |
+
+## Network Design
+
+A Host-Only network was implemented to isolate the penetration testing environment from external networks while allowing communication between all virtual machines.
+
+Each virtual machine was assigned a static IPv4 address to provide predictable connectivity during reconnaissance and exploitation activities. DHCP was disabled to maintain complete control over network addressing.
+
+## Lab Validation
+
+The laboratory environment was validated by:
+
+- Verifying communication between all virtual machines using ICMP ping tests.
+- Confirming that each virtual machine received its assigned static IP address.
+- Confirming that external internet access was blocked after the environment was configured.
+
+These validation steps confirmed that the environment was functioning correctly and remained isolated for safe penetration testing.
+
+## Lessons Learned
+
+- Network isolation is essential when conducting penetration testing.
+- Static IP addressing simplifies host discovery and service enumeration.
+- Virtualization provides a safe environment for practicing offensive security techniques.
+- Proper network planning improves repeatability and troubleshooting during security assessments.
