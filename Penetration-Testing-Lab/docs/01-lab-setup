@@ -17,23 +17,23 @@ The laboratory was designed to:
 
 ## Lab Environment
 
-| Component | Description |
-|----------|-------------|
-| Virtualization Platform | Oracle VirtualBox |
-| Attacker Machine | Kali Linux |
-| Target Server | Ubuntu Server 16.04.4 LTS |
-| Vulnerable Linux Host | Metasploitable 2 |
-| Vulnerable Windows Host | Windows 7 |
-| Network Type | Host-Only Network |
+| Component               | Description 
+|----------               |-------------
+| Virtualization Platform | Oracle VirtualBox 
+| Attacker Machine        | Kali Linux 
+| Target Server           | Ubuntu Server 16.04.4 LTS 
+| Vulnerable Linux Host   | Metasploitable 2 
+| Vulnerable Windows Host | Windows 7 
+| Network Type            | Host-Only Network 
 
 ## Virtual Machine Configuration
 
-| Virtual Machine | Role | IP Address |
-|----------------|------|------------|
-| Kali Linux | Attacker Machine | 192.168.20.10 |
-| Metasploitable 2 | Vulnerable Linux Machine | 192.168.20.20 |
-| Windows 7 | Vulnerable Workstation | 192.168.20.30 |
-| Ubuntu Server | EHR Training Server | 192.168.20.50 |
+| Virtual Machine  | Role                     | IP Address 
+|----------------  |------                    |------------
+| Kali Linux       | Attacker Machine         | 192.168.20.10 
+| Metasploitable 2 | Vulnerable Linux Machine | 192.168.20.20 
+| Windows 7        | Vulnerable Workstation   | 192.168.20.30 
+| Ubuntu Server    | EHR Training Server      | 192.168.20.50 
 
 ## Network Design
 
