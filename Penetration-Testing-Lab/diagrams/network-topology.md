@@ -1,6 +1,5 @@
 # Network Topology
 
-# Network Topology
 
 ```
                     Host Computer
