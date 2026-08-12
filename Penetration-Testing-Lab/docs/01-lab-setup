@@ -43,7 +43,7 @@ The Metasploitable 2 virtual machine was configured with a static IPv4 address t
 
 The Metasploitable 2 virtual machine was configured with a static IPv4 address to ensure consistent connectivity during penetration testing activities.
 
-![Static IP Configuration](../screenshots/static-ip-configuration.png)
+![Static IP Configuration](../screenshots/static-ip-configuration.jpg)
 
 ## Network Design
 
@@ -67,13 +67,13 @@ These validation steps confirmed that the environment was functioning correctly 
 
 Connectivity between virtual machines was verified using ICMP ping tests to confirm that communication within the isolated network was functioning correctly.
 
-![Lab Connectivity](../screenshots/lab-connectivity.png)
+![Lab Connectivity](../screenshots/lab-connectivity.jpg)
 
 ### Internet Isolation Verification
 
 The laboratory was verified to have no external internet connectivity, ensuring that all penetration testing activities remained contained within the virtual environment.
 
-![Internet Isolation](../screenshots/internet-isolation.png)
+![Internet Isolation](../screenshots/internet-isolation.jpg)
 
 ## Lessons Learned
 
