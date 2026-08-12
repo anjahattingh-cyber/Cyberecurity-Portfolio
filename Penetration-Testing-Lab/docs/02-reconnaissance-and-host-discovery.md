@@ -35,7 +35,7 @@ Command used:
 
 ```bash
 netdiscover -r 192.168.20.0/24
-
+```
 ---
 ## Connectivity Verification
 
