@@ -15,6 +15,10 @@ The laboratory was designed to:
 - Prevent access to production or public networks
 - Support repeatable cybersecurity testing
 
+### Static IP Configuration
+
+The Metasploitable 2 virtual machine was configured with a static IPv4 address to ensure consistent connectivity during penetration testing activities. 
+
 ## Lab Environment
 
 | Component               | Description 
