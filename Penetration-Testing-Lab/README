@@ -1,5 +1,13 @@
 # Healthcare Penetration Testing Lab
 
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows_7-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-Network_Scanning-blue?style=for-the-badge)
+![Metasploit](https://img.shields.io/badge/Metasploit-Exploitation-orange?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Wireshark-Packet_Analysis-1679A7?style=for-the-badge)
+
 ## Project Overview
 
 This project demonstrates the design and implementation of an isolated penetration testing laboratory using Oracle VirtualBox.
