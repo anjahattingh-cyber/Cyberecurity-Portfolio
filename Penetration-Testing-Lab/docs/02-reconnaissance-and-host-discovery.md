@@ -36,7 +36,6 @@ Command used:
 ```bash
 netdiscover -r 192.168.20.0/24
 
-
 ---
 
 # Step 4: Ping Verification
