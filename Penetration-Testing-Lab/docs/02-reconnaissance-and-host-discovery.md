@@ -37,25 +37,21 @@ Command used:
 netdiscover -r 192.168.20.0/24
 
 ---
-
-# Step 4: Ping Verification
-
-Your report includes a successful ping before the Nmap scan.
-
-Add:
-
-```markdown
 ## Connectivity Verification
 
 ICMP echo requests were sent from the Kali Linux attacker machine to verify connectivity with the target before beginning service enumeration.
 
 ![Connectivity Verification](../screenshots/ping-verification.jpg)
 
+---
+
 ## Initial Port Scan
 
 An initial Nmap scan was performed against the target server to identify accessible services before further assessment.
 
 ![Initial Nmap Scan](../screenshots/initial-nmap-scan.jpg)
+
+---
 
 ## Findings
 
@@ -64,6 +60,8 @@ The reconnaissance phase confirmed that:
 - The target host was active.
 - Communication within the isolated network was functioning correctly.
 - Initial service discovery established a baseline before further testing.
+
+---
 
 ## Lessons Learned
 
