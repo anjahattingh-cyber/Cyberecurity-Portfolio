@@ -45,6 +45,8 @@ A Host-Only network was implemented to isolate the penetration testing environme
 
 Each virtual machine was assigned a static IPv4 address to provide predictable connectivity during reconnaissance and exploitation activities. DHCP was disabled to maintain complete control over network addressing.
 
+![Host-Only Network](../screenshots/host-only-network.jpg)
+
 ## Lab Validation
 
 The laboratory environment was validated by:
