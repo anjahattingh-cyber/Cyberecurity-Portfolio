@@ -39,6 +39,12 @@ The Metasploitable 2 virtual machine was configured with a static IPv4 address t
 | Windows 7        | Vulnerable Workstation   | 192.168.20.30 
 | Ubuntu Server    | EHR Training Server      | 192.168.20.50 
 
+### Static IP Configuration
+
+The Metasploitable 2 virtual machine was configured with a static IPv4 address to ensure consistent connectivity during penetration testing activities.
+
+![Static IP Configuration](../screenshots/static-ip-configuration.png)
+
 ## Network Design
 
 A Host-Only network was implemented to isolate the penetration testing environment from external networks while allowing communication between all virtual machines.
@@ -56,6 +62,18 @@ The laboratory environment was validated by:
 - Confirming that external internet access was blocked after the environment was configured.
 
 These validation steps confirmed that the environment was functioning correctly and remained isolated for safe penetration testing.
+
+### Connectivity Test
+
+Connectivity between virtual machines was verified using ICMP ping tests to confirm that communication within the isolated network was functioning correctly.
+
+![Lab Connectivity](../screenshots/lab-connectivity.png)
+
+### Internet Isolation Verification
+
+The laboratory was verified to have no external internet connectivity, ensuring that all penetration testing activities remained contained within the virtual environment.
+
+![Internet Isolation](../screenshots/internet-isolation.png)
 
 ## Lessons Learned
 
