@@ -1,74 +1,83 @@
-# Healthcare Penetration Testing Lab
+# Penetration Testing Lab
 
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows_7-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-Network_Scanning-blue?style=for-the-badge)
+![Nmap](https://img.shields.io/badge/Nmap-Network%20Scanning-blue?style=for-the-badge)
 ![Metasploit](https://img.shields.io/badge/Metasploit-Exploitation-orange?style=for-the-badge)
-![Wireshark](https://img.shields.io/badge/Wireshark-Packet_Analysis-1679A7?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Wireshark-Packet%20Analysis-1679A7?style=for-the-badge)
 
 ## Project Overview
 
-This project demonstrates the design and implementation of an isolated penetration testing laboratory using Oracle VirtualBox.
+This repository documents the design and implementation of an isolated penetration testing laboratory built using Oracle VirtualBox.
 
-The environment simulates a healthcare organization's internal network and was built to safely perform ethical hacking activities, including reconnaissance, vulnerability assessment, exploitation, social engineering simulation, and network traffic analysis.
+The project demonstrates the complete penetration testing lifecycle, including:
 
-All testing was conducted in an isolated virtual environment to ensure that no external systems were affected.
-
-
-
-## Objectives
-
-- Build a secure and isolated penetration testing lab
-- Simulate a healthcare network
-- Perform host discovery and network reconnaissance
-- Identify running services and potential vulnerabilities
-- Demonstrate ethical exploitation techniques
-- Analyse captured network traffic
-- Provide security recommendations based on findings
-
-
-
-## Technologies Used
-
-| Technology                       | Purpose 
-|------------                      |---------
-| Oracle VirtualBox                | Virtualization Platform 
-| Kali Linux                       | Attacker Machine 
-| Ubuntu Server                    | Healthcare Server 
-| Windows 7                        | Vulnerable Workstation 
-| Metasploitable 2                 | Vulnerable Linux Machine 
-| Nmap                             | Network Reconnaissance 
-| Metasploit Framework             | Exploitation 
-| Wireshark                        | Packet Analysis 
-| Social Engineering Toolkit (SET) | Phishing Simulation 
+- Lab Design
+- Network Reconnaissance
+- Service Enumeration
+- Vulnerability Assessment
+- Social Engineering
+- Security Recommendations
 
 ---
 
-## Project Structure
+# Documentation
+
+| Section | Description |
+|---------|-------------|
+| [01 - Lab Setup](docs/01-lab-setup.md) | Configure the virtual penetration testing environment |
+| [02 - Reconnaissance & Host Discovery](docs/02-reconnaissance-and-host-discovery.md) | Discover active hosts and services |
+| [03 - Service Enumeration & Vulnerability Assessment](docs/03-service-enumeration-and-vulnerability-assessment.md) | Identify services and assess potential vulnerabilities |
+| [04 - Social Engineering Assessment](docs/04-social-engineering-assessment.md) | Credential harvesting simulation using SET |
+| [05 - Security Recommendations](docs/05-security-recommendations.md) | Recommendations based on assessment findings |
+
+---
+
+# Skills Demonstrated
+
+- Virtual Lab Design
+- VirtualBox Administration
+- Network Configuration
+- Nmap Scanning
+- Service Enumeration
+- Vulnerability Assessment
+- Linux Administration
+- Social Engineering
+- Security Documentation
+- Technical Reporting
+
+---
+
+# Tools Used
+
+- Oracle VirtualBox
+- Kali Linux
+- Ubuntu Server
+- Windows 7
+- Metasploitable 2
+- Nmap
+- Wireshark
+- Metasploit Framework
+- Social Engineering Toolkit (SET)
+
+---
+
+# Repository Structure
 
 ```
 Penetration-Testing-Lab
 │
-├── docs/
-├── screenshots/
-├── diagrams/
-└── README.md
+├── README.md
+├── docs
+├── screenshots
+└── diagrams
 ```
 
-## Documentation
+---
 
-- Lab Setup and Environment Configuration *(Coming Soon)*
-- Reconnaissance and Host Discovery *(Coming Soon)*
-- Service Enumeration *(Coming Soon)*
-- Social Engineering Simulation *(Coming Soon)*
-- Exploitation Demonstration *(Coming Soon)*
-- Network Traffic Analysis *(Coming Soon)*
-- Security Assessment and Recommendations *(Coming Soon)*
+# Disclaimer
 
-## Disclaimer
+This project was conducted within a fully isolated laboratory environment for educational and ethical cybersecurity purposes.
 
-This project was conducted in a controlled laboratory environment for educational and ethical cybersecurity purposes. All testing was performed on intentionally vulnerable virtual machines within an isolated network.
-
-
+No production systems, external networks, or real user accounts were involved.
