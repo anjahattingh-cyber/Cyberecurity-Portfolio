@@ -49,5 +49,5 @@ Frameworks and Standards:
 - MITRE ATT&CK for ICS
 - Purdue Enterprise Reference Architecture
 - IEC 62443
-- CIS Triad
+- CIA Triad
   
